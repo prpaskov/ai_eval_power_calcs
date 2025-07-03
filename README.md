@@ -1,0 +1,1 @@
+# ai_eval_power_calcs
