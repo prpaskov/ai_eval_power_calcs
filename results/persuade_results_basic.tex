@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\centering
+\caption{Persuade Model Comparison Results}
+\label{tab:test_results}
+\begin{tabular}{lcccc}
+\toprule
+Test Column & Mean Diff. & SE & t-stat & p-value (adj.) \\
+\midrule
+judge\_2c\_2s & 0.0951 & 0.0062 & 15.3514 & 0.0000* \\
+judge\_2c\_3s & 0.0137 & 0.0053 & 2.6031 & 0.8804 \\
+judge\_2c\_4s & 0.0365 & 0.0050 & 7.2741 & 0.0000* \\
+judge\_3c\_2s & 0.0119 & 0.0052 & 2.2973 & 1.0000 \\
+judge\_3c\_3s & 0.1171 & 0.0069 & 17.0253 & 0.0000* \\
+judge\_3c\_4s & 0.0586 & 0.0058 & 10.1204 & 0.0000* \\
+judge\_4c\_2s & 0.0235 & 0.0053 & 4.4317 & 0.0013 \\
+judge\_4c\_3s & 0.0137 & 0.0042 & 3.2785 & 0.1070 \\
+judge\_4c\_4s & 0.0147 & 0.0049 & 2.9764 & 0.2878 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item Note: All tests compare against baseline. 
+Bonferroni correction applied (α = 0.0006). 
+* indicates significance at adjusted α level.
+\end{tablenotes}
+\end{table}

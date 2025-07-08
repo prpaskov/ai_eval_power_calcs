@@ -1,0 +1,32 @@
+% Required LaTeX packages:
+% \usepackage{booktabs}
+% \usepackage{threeparttable}
+
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Persuade Comprehensive Model Comparison}
+\label{tab:test_results}
+\begin{tabular}{lcccccc}
+\toprule
+Test Column & N & Mean Diff. & SE & t-stat & 95\% CI & p-value (adj.) \\
+\midrule
+judge\_2c\_2s & 255 & 0.0951 & 0.0062 & 15.3514 & [0.0734, 0.1168] & 0.0000*** \\
+judge\_2c\_3s & 255 & 0.0137 & 0.0053 & 2.6031 & [-0.0047, 0.0322] & 0.8804 \\
+judge\_2c\_4s & 255 & 0.0365 & 0.0050 & 7.2741 & [0.0190, 0.0541] & 0.0000*** \\
+judge\_3c\_2s & 255 & 0.0119 & 0.0052 & 2.2973 & [-0.0062, 0.0299] & 1.0000 \\
+judge\_3c\_3s & 255 & 0.1171 & 0.0069 & 17.0253 & [0.0930, 0.1411] & 0.0000*** \\
+judge\_3c\_4s & 255 & 0.0586 & 0.0058 & 10.1204 & [0.0384, 0.0789] & 0.0000*** \\
+judge\_4c\_2s & 255 & 0.0235 & 0.0053 & 4.4317 & [0.0050, 0.0421] & 0.0013 \\
+judge\_4c\_3s & 255 & 0.0137 & 0.0042 & 3.2785 & [-0.0009, 0.0284] & 0.1070 \\
+judge\_4c\_4s & 255 & 0.0147 & 0.0049 & 2.9764 & [-0.0026, 0.0320] & 0.2878 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item Note: All tests are paired comparisons against baseline. 
+Bonferroni correction applied across 90 tests (α = 0.0006). 
+*** p < 0.001, ** p < 0.01, * p < 0.05. 
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
