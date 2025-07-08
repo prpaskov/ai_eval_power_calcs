@@ -1,4 +1,4 @@
-# ai_eval_power_calcs
+# AI eval power calcs
 
 This repository provides tools for statistical power analysis and sample size calculations for AI evaluation experiments, particularly for comparing paired benchmark scores between different models or judges.
 
