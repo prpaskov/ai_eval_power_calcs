@@ -1,6 +1,12 @@
 # Directories to exclude
 archive/
-data/
+
+# Data directory - keep structure but ignore contents
+data/*
+!data/.gitkeep
+!data/*/
+data/*/*
+!data/*/.gitkeep
 
 # Python
 __pycache__/

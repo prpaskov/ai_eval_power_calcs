@@ -1,0 +1,4 @@
+# This file ensures the data/ directory is tracked by git
+# while keeping the actual data files ignored for privacy/size reasons
+# 
+# The data/ folder structure is preserved for users who clone the repository 
