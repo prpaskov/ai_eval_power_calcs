@@ -3,7 +3,7 @@ import numpy as np
 from scipy import stats
 from scipy.stats import ttest_rel
 import warnings
-from run_power_calcs import calculate_minimum_detectable_effect, calculate_sample_size
+from .run_power_calcs import calculate_minimum_detectable_effect, calculate_sample_size
 
 class AnalyzeScores:
     def __init__(self, 
